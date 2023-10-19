@@ -157,7 +157,7 @@ class ViewController: UIViewController {
             tableView.topAnchor.constraint(equalTo: popularRestaurantLabel.bottomAnchor, constant: 10),
             tableView.leadingAnchor.constraint(equalTo: contentView.leadingAnchor),
             tableView.trailingAnchor.constraint(equalTo: contentView.trailingAnchor),
-            tableView.heightAnchor.constraint(equalToConstant: 300),
+            tableView.heightAnchor.constraint(equalToConstant: 800),
             
             mostPopularLabel.topAnchor.constraint(equalTo: tableView.bottomAnchor, constant: 10),
             mostPopularLabel.leadingAnchor.constraint(equalTo: contentView.leadingAnchor, constant: 20),
@@ -183,7 +183,7 @@ class ViewController: UIViewController {
             recentTableView.topAnchor.constraint(equalTo: recentItems.bottomAnchor,constant: 10),
             recentTableView.leadingAnchor.constraint(equalTo: contentView.leadingAnchor),
             recentTableView.trailingAnchor.constraint(equalTo: contentView.trailingAnchor),
-            recentTableView.heightAnchor.constraint(equalToConstant: 200),
+            recentTableView.heightAnchor.constraint(equalToConstant: 400),
             
             recentTableView.bottomAnchor.constraint(equalTo: contentView.bottomAnchor, constant: -20)
         ])
